@@ -245,7 +245,7 @@ function normalize(obj, schema, options = {}) {
 
   return new NormalizedRecord({
     entities: new EntityStructure(entityStructure),
-    result: new List(results)
+    result: results
   });
 }
 
